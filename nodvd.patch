@@ -1,0 +1,57 @@
+--- gnome-disk-utility-3.30.0/src/disks/meson.build~	2018-09-03 10:01:25.000000000 +0000
++++ gnome-disk-utility-3.30.0/src/disks/meson.build	2018-09-08 15:00:07.825988614 +0000
+@@ -17,7 +17,6 @@
+   'gducrypttabdialog.c',
+   'gdudevicetreemodel.c',
+   'gdudisksettingsdialog.c',
+-  'gdudvdsupport.c',
+   'gduestimator.c',
+   'gdufilesystemdialog.c',
+   'gduformatdiskdialog.c',
+@@ -93,7 +92,6 @@
+   libsecret_dep,
+   pwquality_dep,
+   libcanberra_dep,
+-  dvdread_dep,
+   liblzma_dep,
+   libgdu_dep,
+   m_dep
+--- gnome-disk-utility-3.30.0/meson.build~	2018-09-03 10:01:25.000000000 +0000
++++ gnome-disk-utility-3.30.0/meson.build	2018-09-08 15:00:31.451988285 +0000
+@@ -88,7 +88,6 @@
+ libsecret_dep = dependency('libsecret-1', version: '>= 0.7')
+ pwquality_dep = dependency('pwquality', version: '>= 1.0.0')
+ libcanberra_dep = dependency('libcanberra-gtk3', version: '>= 0.1')
+-dvdread_dep = dependency('dvdread', version: '>= 4.2.0')
+ libnotify_dep = dependency('libnotify', version: '>= 0.7')
+ liblzma_dep = dependency('liblzma', version: '>= 5.0.5')
+ m_dep = cc.find_library('m')
+--- gnome-disk-utility-3.30.0/src/disks/gducreatediskimagedialog.c~	2018-09-03 10:01:25.000000000 +0000
++++ gnome-disk-utility-3.30.0/src/disks/gducreatediskimagedialog.c	2018-09-08 15:07:47.521982214 +0000
+@@ -547,7 +547,7 @@
+ 
+   if (dvd_support != NULL)
+     {
+-      num_bytes_read = gdu_dvd_support_read (dvd_support, fd, buffer, offset, size);
++
+     }
+   else
+     {
+@@ -673,7 +673,7 @@
+           g_mutex_unlock (&data->copy_lock);
+           g_idle_add (on_update_job, dialog_data_ref (data));
+ 
+-          dvd_support = gdu_dvd_support_new (device_file, udisks_block_get_size (data->block));
++
+ 
+           g_mutex_lock (&data->copy_lock);
+           data->retrieving_dvd_keys = FALSE;
+@@ -838,8 +838,6 @@
+     }
+ 
+  out:
+-  if (dvd_support != NULL)
+-    gdu_dvd_support_free (dvd_support);
+ 
+   data->end_time_usec = g_get_real_time ();
+ 

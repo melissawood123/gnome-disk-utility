@@ -1,0 +1,8 @@
+# This file contains additional pkgconfig build requirements that did
+# not get picked up automatically. One name per line, no whitespace.
+udisks2
+libsecret-1
+pwquality
+libcanberra-gtk3
+libnotify
+liblzma
