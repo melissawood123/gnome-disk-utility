@@ -1,5 +1,5 @@
 PKG_NAME := gnome-disk-utility
-URL = 
+URL = https://download.gnome.org/sources/gnome-disk-utility/3.30/gnome-disk-utility-3.30.1.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
