@@ -1,3 +1,54 @@
+3.36.1 - March 21, 2020
+=======================
+
+Kai Lüke:
+ * Wait until UDisks updates the unmounted filesystem
+
+Updated translations:
+ * Daniel Korostil (uk), Daniel Șerbănescu (ro)
+
+3.36.0 - March 5, 2020
+======================
+
+Updated translations:
+ * Alan Mortensen (da), Anders Jonsson (sv), Andre Klapper (lv, nb, pa, sk, vi),
+   Asier Sarasua Garmendia (eu), Aurimas Černius (lt), Balázs Úr (hu),
+   Charles Monzat (fr), Danial Behzadi (fa), Daniel Mustieles (es),
+   Fran Dieguez (gl), Goran Vidović (hr), Jiri Grönroos (fi), Jordi Mas (ca),
+   Jor Teron (mjw), Kukuh Syafaat (id), Marek Černocký (cs), Matej Urbančič (sl),
+   Milo Casagrande (it), Nathan Follens (nl), Piotr Drąg (pl),
+   Rafael Fontenelle (pt_BR), Sabri Ünal (tr), Seong-ho Cho (ko), sicklylife (ja),
+   Tim Sabsch (de), Марко Костић (sr)
+
+3.35.91 - February 16, 2020
+===========================
+
+Sabri Ünal:
+ * Add a shortcut for Keyboard Shorcuts page
+
+Updated translations:
+ * Alexandre Franke (fr), Anders Jonsson (sv), Aurimas Černius (lt),
+   Balázs Úr (hu), Danial Behzadi (fa), Daniel Mustieles (es),
+   Dušan Kazik (sk), Dz Chen (zh_CN), Efstathios Iosifidis (el),
+   Fabio Tomat (fur), Fran Dieguez (gl), Goran Vidović (hr),
+   Kukuh Syafaat (id), Marek Černocký (cs), Piotr Drąg (pl),
+   Rafael Fontenelle (pt_BR), Sabri Ünal (tr), sicklylife (ja),
+   Umarzuki Bin Mochlis Moktar (ms), Victor Grousset/tuxayo (eo),
+   Yi-Jyun Pan (zh_TW), Марко Костић (sr)
+
+3.35.2 - November 23, 2019
+==========================
+
+Jakub Steiner:
+ * create a nightly app icon
+
+segfault:
+ * unlock dialog: Add a mnemonic to the keyfiles label
+
+Updated translations:
+ * Ask Hjorth Larsen (da), Danial Behzadi (fa), Fabio Tomat (fur),
+   Nathan Follens (nl)
+
 3.34.0 - September 8, 2019
 ==========================
 
