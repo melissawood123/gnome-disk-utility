@@ -4,7 +4,7 @@
 #
 Name     : gnome-disk-utility
 Version  : 3.38.0
-Release  : 12
+Release  : 13
 URL      : https://download.gnome.org/sources/gnome-disk-utility/3.38/gnome-disk-utility-3.38.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-disk-utility/3.38/gnome-disk-utility-3.38.0.tar.xz
 Summary  : No detailed summary available
