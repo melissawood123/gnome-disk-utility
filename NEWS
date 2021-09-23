@@ -1,11 +1,64 @@
-40.2 - July 10, 2021
-====================
+41.0 - September 18, 2021
+=========================
+
+Guido Günther:
+ * metainfo: Add minimum screen size requirement and input recommendations
+ * desktop-file: Add X-Purism-Form-Factor
+
+Updated translations:
+ * Alan Mortensen (da), Alexander Shopov (bg), Anders Jonsson (sv),
+   Balázs Meskó (hu), Boyuan Yang (zh_CN), Dušan Kazik (sk),
+   Emin Tufan Çetin (tr), Goran Vidović (hr), Guillaume Bernard (fr),
+   Nathan Follens (nl), Philipp Kiemle (de), Piotr Drąg (pl)
+
+41.rc - September 2, 2021
+=========================
+
+Updated translations:
+ * Alexey Rubtsov (ru), Asier Sarasua Garmendia (eu), Aurimas Černius (lt),
+   Baurzhan Muftakhidinov (kk), Charles Monzat (fr), Danial Behzadi (fa),
+   Daniel Mustieles (es), Daniel Șerbănescu (ro), Efstathios Iosifidis (el),
+   Fran Dieguez (gl), Jiri Grönroos (fi), Jordi Mas (ca), Kukuh Syafaat (id),
+   Marek Černocký (cs), Matej Urbančič (sl), Seong-ho Cho (ko),
+   Yaron Shahrabani (he), Zander Brown (en_GB)
+
+41.beta - August 14, 2021
+=========================
+
+Manuel Wassermann:
+ * gducreateformatdialog: Use LUKS2 for new encrypted partitions
+ * volume-menu/gduwindow: Add button and dialog to take filesystem ownership
+ * ui: Change the icon of the detach loop device button
+ * shortcuts: Add keyboard shortcut for the application menu
+ * gduwindow: Make menus toggleable
+ * ui: Change the icon of the job cancel button
+ * ui: Align job section
+ * ui: Enable ellipsis on the job remaining label
+ * gdubenchmarkdialog: Save benchmark settings
+ * Flatpak build fixes
+
+Kai Lüke:
+ * Flatpak build fixes
+
+Updated translations:
+ * Alexey Rubtsov (ru), Boyuan Yang (zh_CN), Daniel Mustieles (es),
+   Emin Tufan Çetin (tr), Enrico Nicoletto (pt_BR), Fabio Tomat (fur),
+   Hugo Carvalho (pt), Jordi Mas (ca), Kukuh Syafaat (id), Marek Černocký (cs),
+   Matej Urbančič (sl), Quentin PAGÈS (oc), Rafael Fontenelle (pt_BR),
+   Yaron Shahrabani (he), Yuri Chornoivan (uk)
+
+41.alpha - July 11, 2021
+========================
 
 Manuel Wassermann:
  * gdusdmonitor: Fix notification icon
+ * UI: Highlight destructive actions
 
 Kai Lüke:
  * Escape hyperlink text in mount point label
+
+Updated translations:
+ * Alexey Rubtsov (ru)
 
 40.1 - May 1, 2021
 ==================
